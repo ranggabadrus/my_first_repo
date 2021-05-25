@@ -1,0 +1,332 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*  MY CODE STAR HER: #0b0c10 */
+
+body {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #c5c6c7;
+  height: 1000px;
+}
+
+header {
+  width: 100%;
+  height: 84px;
+  background-color: #c5c6c7;
+  position: fixed;
+  z-index: 28;
+  top: 0;
+  opacity: 0.8;
+}
+
+.header_right a {
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.header_right li {
+  float: left;
+  margin-right: 20px;
+}
+
+.header_right {
+  float: right;
+  margin-right: 28px;
+  margin-top: 37px;
+}
+
+.header_left {
+  float: left;
+}
+
+.logo {
+  /* width: 45px; */
+  /* margin-left: 57px; */
+  /* margin-top: 19px; */
+}
+
+.banner_hero {
+  /* padding: 83px 158px 0 158px; */
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0px;
+  background-color: #c5c6c7;
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading2 {
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+}
+
+.heading1 {
+  font-family: "Kanit", sans-serif;
+  font-size: 46px;
+  color: #66fcf1;
+  margin-top: 8px;
+}
+
+.heading3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 16x;
+  margin-top: 10px;
+}
+
+.body_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16x;
+  line-height: 30px;
+  /* margin-top: 14px; */
+}
+
+.top_text {
+  width: 100%;
+  /* height: 210px; */
+  text-align: justify;
+}
+
+.btn {
+  /* width: 615px; */
+  /* position: relative; */
+  display: flex;
+}
+
+.btn .email {
+  /* margin-right: 70px; */
+}
+
+.email_frame {
+  /* position: relative; */
+  /* float: left; */
+  /* width: 136px; */
+  /* height: 56px; */
+  background-color: #66fcf1;
+  border-radius: 10px;
+  /* bottom: 40px; */
+  display: flex;
+  padding: 5px 20px;
+  align-items: center;
+}
+
+.email_frame li {
+  float: left;
+}
+
+.email_frame a {
+  /* position: absolute; */
+  /* right: 20px; */
+  /* bottom: 13px; */
+  /* text-decoration: none; */
+}
+
+.email_frame li img {
+  position: absolute;
+  right: 22px;
+  bottom: 20px;
+}
+
+.btn_img {
+  /* position: absolute; */
+  /* left: 230px; */
+  /* bottom: -4px; */
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  align-items: center;
+}
+.btn_img li {
+  float: left;
+  margin-right: 70px;
+}
+
+.youtube {
+  /* width: 39px; */
+  /* height: 26px; */
+  /* background-repeat: no-repeat; */
+  /* background-image: url(img/youtube.png); */
+  /* display: inline-block; */
+  /* text-indent: -9999px; */
+}
+.ig {
+  width: 27px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-image: url(img/ig.png);
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.wa {
+  width: 27px;
+  height: 27px;
+  background-repeat: no-repeat;
+  background-image: url(img/wa.png);
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.baner_content {
+  margin-top: 110px;
+  padding: 0px 10px;
+}
+
+.menu {
+  width: 41px;
+  height: 27px;
+  background-image: url(img/menu.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  display: none;
+}
+
+.profile_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_ {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px 5px 0px 5px; */
+}

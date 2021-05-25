@@ -1,0 +1,26 @@
+/*This is For Tablet*/
+
+@media(max-width:1000px){
+    .container{
+        flex-flow: column wrap;
+        flex-direction: column-reverse;
+        flex:100%;
+    }
+}
+
+/*This is For smarthphone*/
+
+@media(max-width:670px){
+.header_right{
+        display:none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+
+
+
+
+}   
