@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bagas Syaffurqon</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header_">
+      <img class="logo" src="img/logo.png" />
+      <span><a class="menu" href="#">menu</a></span>
+
+      <div class="header_right">
+        <ul>
+          <li><a href="#hero" class="header_text">About Me</a></li>
+          <li><a href="#education" class="header_text">Experience</a></li>
+          <li><a href="#contact" class="header_text">Contact</a></li>
+          <li><a onclick="myFunction()" href="javascript:void(0);" class="dark_mode">Dark Mode</a></li>
+        </ul>
+        <script>
+          function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            document.getElementsByClassName("header")[0].classList.toggle("header_dark_mode")
+            document.getElementsByClassName("header_text")[0].classList.toggle("header_text_dark_mode")
+            document.getElementsByClassName("header_text")[1].classList.toggle("header_text_dark_mode")
+            document.getElementsByClassName("header_text")[2].classList.toggle("header_text_dark_mode")
+            document.getElementsByClassName("dark_mode")[0].classList.toggle("new_header")
+          }
+        </script>
+      </div>
+    </div>
+  </header>
+  <div class="banner_hero" id="hero">
+    <div class="container">
+      <div class="baner_content">
+        <div class="heading2">
+          <h2>Hello, I ‘am</h2>
+        </div>
+        <div class="heading1">
+          <h1>Bagas Syaffurqon</h1>
+        </div>
+        <div class="heading3">
+          <h3>Front End Web Developer.</h3>
+        </div>
+        <div class="body_text">
+          <div class="top_text">
+            <p>
+              I am from sumbawa and I am a final semester informatics
+              engineering student at Muhammadiyah University, Surakarta During
+              college I learned the basic programming languages html, php,
+              java script, and python but I prefer learning to make web
+              designs. And that’s why I wanted to join glint’s academy program
+              because is an opportunity to learn to become a professional
+              front end web developer.
+            </p>
+          </div>
+        </div>
+        <div class="btn">
+          <div class="email_frame">
+            <div>
+              <img class="email" src="img/email.png" />
+            </div>
+            &nbsp;
+            <a class="body_text" href="#">Email Me</a>
+            </ul>
+          </div>
+          <div class="btn_img">
+            <div>
+              <img src="img/youtube.png" />
+            </div>
+            <div>
+              <img src="img/ig.png" />
+            </div>
+            <div>
+              <img src="img/wa.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile_image">
+        <img src="img/Profile.png" />
+      </div>
+    </div>
+  </div>
+  <div class="edu1" id="education">
+    <div class="heading1">
+      <h1 class="edu_title">Education And Work Experience</h1>
+    </div>
+    <div class="rcontainer">
+      <div class="edu_content">
+        <div class="heading2">
+          <h2>Muhammadiyah Univesity Student, Surakarta</h2>
+        </div>
+        <div class="body_text">
+          <div class="top_text">
+            <p>
+              Informatics engineering is one of the favorite college majors that is based in computer science, and
+              deepens information management and the application of logic in computers.
+              I am a student majoring in informatics class 2016 and that is why I am interested in studying it.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="edu1_image">
+        <img src="img/Edu1.png" />
+      </div>
+    </div>
+  </div>
+  <div class="edu2">
+    <div class="container">
+      <div class="edu_content">
+        <div class="heading2">
+          <h2>Part Of BUMN Certificed Student Internship Program 2020 Batch I</h2>
+        </div>
+        <div class="body_text">
+          <div class="top_text">
+            <p>
+              Is a program that aims to provide enrichment of students' insights and skills to prepare and create
+              superior Indonesian human resources, especially in facing global competition through link and match
+              curriculum for industry and tertiary institutions.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="edu1_image">
+        <img src="img/Edu2.png" />
+      </div>
+    </div>
+  </div>
+  <div class="edu3">
+    <div class="rcontainer">
+      <div class="edu_content">
+        <div class="heading2">
+          <h2>Participating In The Bali International Choir Sestival 2018 </h2>
+        </div>
+        <div class="body_text">
+          <div class="top_text">
+            <p>
+              is an annual event that brings together choir teams from Indonesia and abroad. They want to gain
+              experience performing and competing in international choirs in Bali, which has become an icon of
+              Indonesian tourism. Psm Voca Al Kindi Muhammdiyah University, Surakarta managed to get 2 gold medals in
+              the competition.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="edu1_image">
+        <img src="img/Edu3.png" />
+      </div>
+    </div>
+  </div>
+  <div class="contact_form" id="contact">
+    <div class="heading2">
+      <h2>Get In Touch</h2>
+    </div>
+    <div class="form">
+      <div class="body_text">
+        <h3>Email.</h3>
+      </div>
+      <input type="input" class="formemail">
+      <div class="body_text">
+        <h3>Message.</h3>
+      </div>
+      <textarea></textarea>
+    </div>
+    <input class="send" type="submit" value="Send">
+  </div>
+  <footer>
+    <div class="foot1">
+      <p>© Since 2021</p>
+    </div>
+    <img class="footer_logo" src="img/logo.png">
+    <div class="foot2">
+      <p>Create with<img src="img/love.png" class="love"> Bagas Syaffurqon</p>
+    </div>
+  </footer>
+</body>
+
+</html>
