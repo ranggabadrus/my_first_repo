@@ -1,26 +1,151 @@
 /*This is For Tablet*/
 
-@media(max-width:1000px){
-    .container{
+@media(max-width:1000px) {
+    .container {
         flex-flow: column wrap;
         flex-direction: column-reverse;
-        flex:100%;
+        flex: 100%;
     }
+
+    .rcontainer {
+        flex-flow: column wrap;
+        flex-direction: column-reverse;
+        flex: 100%;
+    }
+
+    .banner_hero {
+        padding: 90px 30px;
+    }
+
+    .edu1 {
+        padding: 70px 30px 0px 30px;
+    }
+
+    .edu2 {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .edu3 {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .edu_content {
+        margin-top: 50px;
+        padding: 0px 10px;
+    }
+
+    .baner_content {
+        margin-top: 50px;
+        padding: 0px 10px;
+    }
+
+    edu1_image {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    footer {
+        flex-flow: column wrap;
+        padding: 30px 0;
+    }
+
+    .footer_logo {
+        margin-left: 0;
+        margin-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .foot1 {
+        margin-bottom: 15px;
+    }
+
+
+
 }
 
 /*This is For smarthphone*/
 
-@media(max-width:670px){
-.header_right{
-        display:none;
+@media(max-width:670px) {
+    .header_right {
+        display: none;
     }
 
-    .menu{
+    .menu {
         display: block;
     }
 
+    .menu {
+        width: 41px;
+        height: 27px;
+        background-image: url(img/menu.png);
+        display: inline-block;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+        margin-right: 28px;
+        margin-top: 8px;
+    }
+
+    .logo {
+        margin-left: 28px;
+    }
+
+    .banner_hero {
+        padding: 90px 10px;
+    }
+
+    .edu1 {
+        padding: 30px 10px;
+    }
+
+    .edu2 {
+        padding: 10px 10px;
+    }
+
+    .edu3 {
+        padding: 0px 10px;
+    }
+
+    .edu1_image {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formemail {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .contact_form {
+        padding: 30px 10px;
+        margin-top: 150px;
+        margin-bottom: 40px;
+    }
+
+    .form textarea {
+        width: 100%;
+    }
+
+    .contact_form input[type=submit] {
+        width: 100%;
+    }
+
+    .profile_image img {
+        width: 100%;
+    }
+
+    .edu1_image img {
+        width: 100%;
+    }
 
 
-
-
-}   
+}
